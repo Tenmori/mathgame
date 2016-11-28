@@ -10,10 +10,13 @@ session_start();
         <?php
         $operarors = array( '+', '-');
         $operator = $operarors[rand(0,1)];
-        $leftop = $rand(0,20);
-        $rightop = $rand(0,20);
+        $left = rand(0,20);
+        $right = rand(0,20);
 
         echo "the math: $leftop $operator $rightop = ??";
+        echo "<form>";
+        echo '<input type="text" name="answer" />';
+        echo '<input type="submit" value="Check Answer" />';
         ?>
     </body>
 </html>
