@@ -27,7 +27,7 @@ session_start();
         echo '<input type="text" name="input" />';
         echo '<input type="submit" value="Check Answer" />';
         echo '</form>';
-        echo "$correct / $total";
+        echo "0$correct / 0$total";
 
         ?>
     </body>
