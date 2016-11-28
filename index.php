@@ -12,11 +12,18 @@ session_start();
         $operator = $operarors[rand(0,1)];
         $left = rand(0,20);
         $right = rand(0,20);
+        if ($operator == 0){
+            $answer = $left + $right;
+        }else {
+            $answer = $left - $right;
+        }
 
         echo "the math: $left $operator $right";
-        echo "<form>";
-        echo '<input type="text" name="answer" />';
+        echo '<form method="post" action="validate.php">';
+        echo '<input type="text" name="input" />';
         echo '<input type="submit" value="Check Answer" />';
+
+        
         ?>
     </body>
 </html>
