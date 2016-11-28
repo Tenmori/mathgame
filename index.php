@@ -32,6 +32,9 @@ session_start();
         echo '<input type="submit" value="Check Answer" />';
         echo '</form>';
         echo "0$correct / 0$total";
+        echo '<br /><br /><br />';
+        echo '<form method="post" action="logout.php">';
+        echo '<input type="submit" name="logout" />';
 
         ?>
     </body>
