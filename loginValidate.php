@@ -7,7 +7,7 @@ $_SESSION["message"] = "";
             header("Location: login.php");
             die();
     }else {
-        $_SESSION["valid"] = true;
+        $_SESSION["valid"] = "true";
         header("Location: index.php");
         die();
     }
