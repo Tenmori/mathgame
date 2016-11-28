@@ -2,7 +2,7 @@
 
 <?php
     $input = $_POST["input"];
-    $answer = $_POST["answer"];
+    $answer = $_SESSION["answer"];
 
     if(!isset($_SESSION["correct"])){
         $_SESSION["correct"] = 0;

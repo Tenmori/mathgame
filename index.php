@@ -15,10 +15,10 @@ session_start();
         $total =  $_SESSION["total"];
         $correct =  $_SESSION["correct"];
         if ($operator == 0){
-            $answer = $left + $right;
+            $_SESSION["answer"] = $left + $right;
             $sign = "+";
         }else {
-            $answer = $left - $right;
+            $_SESSION["answer"] = $left - $right;
             $sign = "-";
         }
 
