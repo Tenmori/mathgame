@@ -22,7 +22,7 @@ session_start();
         echo '<form method="post" action="validate.php">';
         echo '<input type="text" name="input" />';
         echo '<input type="submit" value="Check Answer" />';
-
+        echo '$_POST["$correct"] / $_POST["$total"]'
         
         ?>
     </body>
