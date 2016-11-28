@@ -13,7 +13,7 @@ session_start();
         $left = rand(0,20);
         $right = rand(0,20);
 
-        echo "the math: $leftop $operator $rightop = ??";
+        echo "the math: $left $operator $right";
         echo "<form>";
         echo '<input type="text" name="answer" />';
         echo '<input type="submit" value="Check Answer" />';
