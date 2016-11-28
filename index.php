@@ -23,7 +23,6 @@ session_start();
         echo '<input type="text" name="input" />';
         echo '<input type="submit" value="Check Answer" />';
         echo '</form>'
-        echo '$_SESSION["correct"] / $_SESSION["total"]'
         
         ?>
     </body>

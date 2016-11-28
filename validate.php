@@ -15,8 +15,11 @@
         $correct = $correct + 1;
         $total = $total + 1;
         header("Location: index.php");
+        $_SESSION["correct"] = $_SESSION["correct"] + 1;
+        $_SESSION["total"] = $_SESSION["total"] + 1;
     }else {
         $total = $total + 1;
         header("Location: index.php");
+        $_SESSION["total"] = $_SESSION["total"] + 1;
     }
 ?>
