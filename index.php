@@ -38,9 +38,6 @@ session_start();
                     echo "<br />$left $sign $right";
                     echo '<form method="post" action="validate.php">';
                     echo '<br/><input type="text" name="input" />';
-                    if (isset($_SESSION["msg"])){
-                        echo $_SESSION["msg"];
-                    }
                     echo '<br/><br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
                     echo '</form>';
                     echo '<hr />';
