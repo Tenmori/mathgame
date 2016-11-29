@@ -14,11 +14,13 @@
     if ($input == $_SESSION["answer"]){
         $_SESSION["correct"] = $_SESSION["correct"] + 1;
         $_SESSION["total"] = $_SESSION["total"] + 1;
+        $_SESSION["msg"] = "Correct";
         header("Location: index.php");
         die();
     }else {
         $_SESSION["total"] = $_SESSION["total"] + 1;
         header("Location: index.php");
+        $_SESSION["msg"] = "Incorrect";
         die();
     }
 ?>
