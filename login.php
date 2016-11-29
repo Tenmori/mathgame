@@ -7,8 +7,8 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="col-sm-12">Please Login To Play</h1>
-            <div class="col-sm-12">
+            <h1 class="col-sm-10 col-sm-offset-2">Please Login To Play</h1>
+            <div class="col-sm-10 col-sm-offset-2">
                 <form method="post" action="loginValidate.php">
                     <input type="text" id="email" name="email" placeholder="Email" />
                     <input type="password" id="password" name="password" placeholder="Password" />
