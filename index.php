@@ -9,8 +9,8 @@ session_start();
     </head>
     <body>
         <div class="container">
-            <div class="col-sm-9 col-offset-3">
-                <div class="col-sm-9 col-offset-3">
+            <div class="col-sm-9 col-sm-offset-3">
+                <div class="col-sm-9 col-sm-offset-3">
                     <?php
                     if (!isset($_SESSION["valid"]) || $_SESSION["valid"] != "true"){
                         header("Location: login.php");
@@ -30,7 +30,7 @@ session_start();
                         $sign = "-";
                     }
                     echo "<h1>Math Game</h1>";
-                    echo '<div class="col-sm-2 col-offset-10">';
+                    echo '<div class="col-sm-2 col-sm-offset-10">';
                     echo '<form method="post" action="logout.php">';
                     echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
                     echo '</div>';
