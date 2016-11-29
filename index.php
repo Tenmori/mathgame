@@ -32,9 +32,9 @@ session_start();
                 echo "$left $sign $right";
                 echo '<form method="post" action="validate.php">';
                 echo '<input type="text" name="input" />';
-                echo '<div class="col-sm-9 col-offset-2">'
+                echo '<div class="col-sm-9 col-offset-2">';
                 echo '<br/><br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
-                echo '</div>'
+                echo '</div>';
                 echo '</form>';
                 echo "0$correct / 0$total";
                 echo '<br /><br /><br />';
