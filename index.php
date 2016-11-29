@@ -8,7 +8,7 @@ session_start();
     </head>
     <body>
         <?php
-        if (!isset($_SESSON["valid"]) || $_SESSION["valid"] != "true"){
+        if (!isset($_SESSION["valid"]) || $_SESSION["valid"] != "true"){
             header("Location: login.php");
             die();
         }
