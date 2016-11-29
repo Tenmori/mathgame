@@ -2,18 +2,22 @@
 
 <html>
     <head>
-        <title></title>
+        <title>Login</title>
+        <link rel="stylesheet" href="bootstrap.min.css" media="screen" />
     </head>
     <body>
-        <h1>Please Login To Play</h1>
-        <form method="post" action="loginValidate.php">
-            <input type="text" id="email" name="email" placeholder="Email" />
-            <input type="password" id="password" name="password" placeholder="Password" />
-            <input type="submit" name ="submit" value="login" />
-        </form>
-
-        <?php
-            echo $_SESSION["failValidate"];
-        ?>
+        <div class="container">
+            <h1 class="col-sm-10">Please Login To Play</h1>
+            <div class="col-sm-10">
+                <form method="post" action="loginValidate.php">
+                    <input type="text" id="email" name="email" placeholder="Email" />
+                    <input type="password" id="password" name="password" placeholder="Password" />
+                    <input type="submit" name ="submit" value="login" />
+                </form>
+            </div>
+            <?php
+                echo $_SESSION["failValidate"];
+            ?>
+        </div>
     </body>
 </html>
