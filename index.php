@@ -25,7 +25,7 @@ session_start();
             $_SESSION["answer"] = $left - $right;
             $sign = "-";
         }
-
+        echo "<h1>Math Game</h1>";
         echo "$left $sign $right";
         echo '<form method="post" action="validate.php">';
         echo '<input type="text" name="input" />';
