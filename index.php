@@ -9,7 +9,7 @@ session_start();
     </head>
     <body>
         <div class="container">
-            <div class="col-sm-9 col-offset-3">
+            <div class="col-sm-6 col-offset-6">
                 <?php
                 if (!isset($_SESSION["valid"]) || $_SESSION["valid"] != "true"){
                     header("Location: login.php");
