@@ -8,7 +8,10 @@ session_start();
     </head>
     <body>
         <?php
-        
+        if (!isset($_SESSON["valid"]) || $_SESSION["valid"] != "true"){
+            header("Location: login.php");
+            die();
+        }
         $operator = rand(0,1);
         $sign;
         $left = rand(0,20);
