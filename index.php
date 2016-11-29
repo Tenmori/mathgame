@@ -35,7 +35,7 @@ session_start();
                     echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
                     echo '</div>';
                     echo '<br/>';
-                    echo "$left $sign $right";
+                    echo "<br />$left $sign $right";
                     echo '<form method="post" action="validate.php">';
                     echo '<input type="text" name="input" />';
                     echo '<br/><br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
