@@ -37,7 +37,7 @@ session_start();
                     echo '<br/>';
                     echo "<br />$left $sign $right";
                     echo '<form method="post" action="validate.php">';
-                    echo '<input type="text" name="input" />';
+                    echo '<br/><input type="text" name="input" />';
                     echo '<br/><br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
                     echo '</form>';
                     echo '<hr />';
