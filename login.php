@@ -9,7 +9,7 @@
         <form method="post" action="loginValidate.php">
             <input type="text" id="email" name="email" placeholder="Email" />
             <input type="password" id="password" name="password" placeholder="Password" />
-            <input type="submit" value="login" />
+            <input type="submit" name ="submit" value="login" />
         </form>
 
         <?php
