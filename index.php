@@ -32,7 +32,7 @@ session_start();
                 echo "$left $sign $right";
                 echo '<form method="post" action="validate.php">';
                 echo '<input type="text" name="input" />';
-                echo '<input type="submit" value="Check Answer" class="btn btn-primary"/>';
+                echo '<br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
                 echo '</form>';
                 echo "0$correct / 0$total";
                 echo '<br /><br /><br />';
