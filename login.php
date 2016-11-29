@@ -17,6 +17,11 @@
             </div>
             <?php
                 echo $_SESSION["failValidate"];
+                if(isset($_SESSION["message"])){
+                    if($_SESSION["message"] !=""){
+                        echo '$_SESSION["message"]";
+                    }
+                }
             ?>
         </div>
     </body>
