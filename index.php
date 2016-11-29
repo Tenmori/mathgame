@@ -30,7 +30,7 @@ session_start();
                         $sign = "-";
                     }
                     echo "<h1>Math Game</h1>";
-                    echo '<div class="col-sm-10 col-offset-2">';
+                    echo '<div class="col-sm-2 col-offset-10">';
                     echo '<form method="post" action="logout.php">';
                     echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
                     echo '</div>';
