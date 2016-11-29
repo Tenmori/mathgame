@@ -30,15 +30,18 @@ session_start();
                         $sign = "-";
                     }
                     echo "<h1>Math Game</h1>";
+                    echo '<div class="col-sm-10 col-offset-2>';
+                    echo '<form method="post" action="logout.php">';
+                    echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
+                    echo '</div>';
                     echo "$left $sign $right";
                     echo '<form method="post" action="validate.php">';
                     echo '<input type="text" name="input" />';
                     echo '<br/><br/><input type="submit" value="Check Answer" class="btn btn-primary"/>';
                     echo '</form>';
+                    echo '<hr />';
                     echo "0$correct / 0$total";
                     echo '<br /><br /><br />';
-                    echo '<form method="post" action="logout.php">';
-                    echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
 
                     ?>
                 </div>
