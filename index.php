@@ -30,10 +30,11 @@ session_start();
                         $sign = "-";
                     }
                     echo "<h1>Math Game</h1>";
-                    echo '<div class="col-sm-10 col-offset-2>';
+                    echo '<div class="col-sm-10 col-offset-2">';
                     echo '<form method="post" action="logout.php">';
                     echo '<input type="submit" name="logout" value="Logout" class="btn btn-primary"/>';
                     echo '</div>';
+                    echo '<br/>';
                     echo "$left $sign $right";
                     echo '<form method="post" action="validate.php">';
                     echo '<input type="text" name="input" />';
