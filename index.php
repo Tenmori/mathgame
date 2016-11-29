@@ -34,7 +34,7 @@ session_start();
         echo "0$correct / 0$total";
         echo '<br /><br /><br />';
         echo '<form method="post" action="logout.php">';
-        echo '<input type="submit" name="logout" vale="Logout" />';
+        echo '<input type="submit" name="logout" value="Logout" />';
 
         ?>
     </body>
